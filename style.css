@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+.container {
+display: flex; 
+flex-direction: row;
+justify-content: flex-end;
+}
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    display: flex;
+    padding: 10px;
+    margin: 5px 10px;
+    justify-content: center;
+}
+
+.white {
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+#shifted {
+    position: relative;
+    top: -50px;
+    z-index: -1;
+}
+
+ul {
+    list-style: none;
+    margin: none;
+    position: absolute;
+    top: 110px;
+}
+
+li {
+    margin: 0px 20px;
+}
+
+.new-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 300vh;
+}
+
+#shopped {
+    border-radius: 20%;
+    height: 5vh;
+    margin-left: 300px;
+}
+
+#Oscar {
+    font-size: 2em;
+    position: relative;
+    top: 25px;
+}
